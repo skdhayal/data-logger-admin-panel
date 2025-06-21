@@ -1,0 +1,24 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for DataGrid styles */
+.MuiDataGrid-root .MuiDataGrid-cell:focus {
+  outline: none;
+}
+
+.MuiDataGrid-root .MuiDataGrid-row.Mui-selected {
+  background-color: rgba(25, 118, 210, 0.08);
+}
+
+.MuiDataGrid-root .MuiDataGrid-row.Mui-selected:hover {
+  background-color: rgba(25, 118, 210, 0.12);
+} 
